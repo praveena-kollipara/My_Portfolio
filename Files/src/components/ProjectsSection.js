@@ -3,6 +3,7 @@ import { VStack, Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
 import photo1 from "../images/photo1.jpg";
 import photo2 from "../images/photo2.jpg";
+import photo3 from "../images/photo3.jpg";
 const projects = [
   {
     title: "React-E-commerce",
@@ -16,6 +17,14 @@ const projects = [
       "A .NET MVC web application showcasing dynamic content rendering, database connectivity and responsive design.",
     imageSrc: photo2,
     link: "https://github.com/praveena-kollipara/WebApplication1-MVC-",
+  },
+
+  {
+    title: "My_Portfolio",
+    description:
+      "Explore my projects, learn more about me, and connect through LinkedIn and GitHub to see my work and contributions.",
+    imageSrc: photo3,
+    link: "https://github.com/praveena-kollipara/My_Portfolio",
   },
 ];
 
